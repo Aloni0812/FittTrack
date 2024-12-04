@@ -1,0 +1,48 @@
+<!-- res/layout/item_training.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <!-- Название тренировки -->
+    <TextView
+        android:id="@+id/trainingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название тренировки"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <!-- Продолжительность тренировки -->
+    <TextView
+        android:id="@+id/trainingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Продолжительность: 30 мин"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <!-- Дата тренировки -->
+    <TextView
+        android:id="@+id/trainingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата: 01.01.2024"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <!-- Частота тренировки -->
+    <TextView
+        android:id="@+id/trainingFrequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Частота: Ежедневно"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+</LinearLayout>
